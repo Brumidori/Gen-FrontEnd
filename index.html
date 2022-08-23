@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <!-- Option+Z redefine o texto | comand+/ comenta | option+shift+seta copia codigo-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolo vegane</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <ul>
+    <ul id="menu">
         <li><a href="index.html"> Home </a></li>
         <li><a href="contato.html"> Contato </a></li>
     </ul>
 
-    <h1>Olá Vegane</h1>
-    <p>
-        Venha conhecer nossa loja e saborear os melhores bolos da região!
-    </p>
-    <p>
-        Todos os ingredientes são 100% naturais, de origem vegetal e cruelty free.
-    </p>
-    <!-- Option+Z redefine o texto | comand+/ comenta | option+shift+seta copia codigo-->
-    <img src="./assets/images.jpeg" alt="Foto de um bolo" width="250px" height="300px">
+    <h1 class="center">Olá Vegane</h1>
+    <div class="container">
+        <div class="pad-30">
+            <p class="justify">
+                Venha conhecer nossa loja e saborear os melhores bolos da região!
+            </p>
+            <p class="justify">
+                Todos os ingredientes são 100% naturais, de origem vegetal e cruelty free.
+            </p>
+            <h3 class="center">Sabores</h3>
+            <ul class="center">
+                <li>Morango com ninho</li>
+                <li>Chocolate meio amargo</li>
+                <li>Folhado de baunilha</li>
+                <li>Paçoca</li>
+                <li>Banana com goiaba</li>
+                <li>Frutas Vermelhas</li>
+            </ul>
+        </div>
+        <div>
+            <img class="border-50" src="./assets/5-1024x708.jpeg" alt="Foto de um bolo" width="550px" height="500px">
+        </div>
+    </div>
 
-    <h2>Uma receitinha vegane pra fazer em casa:</h2>
-
-    <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/K-jFRPqIKXQ" 
-        title="YouTube video player" frameborder="3" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    <h2 class="center">Uma receitinha vegane pra fazer em casa:</h2>
+    <div class="container mg-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K-jFRPqIKXQ" title="YouTube video player"
+        frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
-    </iframe>
+        </iframe>
+    </div>
+<hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/Brumidori" target="_blank">
+                 <img class="tm pad-30" src="assets/instagram.png" alt="instagram icon">
+            </a>
+           <a href="https://www.linkedin.com/in/bruna-midori-yassuda/" target="_blank"> 
+                 <img class="tm pad-30" src="assets/in.png" alt="linkedin incon">
+            </a>
+           
+        </div>
+        <p class="center">
+          Todos os direitos reservados: BrunaMidori &copy; 
+        </p> 
+    </footer>
+   
 </body>
+
 </html>
