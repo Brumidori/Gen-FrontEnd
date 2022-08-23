@@ -1,10 +1,17 @@
 /* Estilos da página index.html */
 
+body{
+    background-color: rgba(255, 99, 71, 0.2);
+    font-size: 18px;
+    font-family: "Sofia", sans-serif;
+}
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items:flex-start;
+    line-height: 0.9;
+    word-spacing: 6px;
 }
 
 .center {
@@ -25,6 +32,10 @@
     text-decoration: none;
     color: black;
     font-size: 18px;
+    padding: 15px;
+    background-color: rgba(248, 215, 174, 0.416);
+    border-radius: 5px;
+    border:1px solid azure;
 }
 
 #menu li a:hover{
@@ -39,11 +50,21 @@
     border-radius: 70%;
 }
 
+.ul-bk{
+    background-color: rgba(246, 163, 163, 0.686);
+    border-radius: 10px;
+    border: 1px solid azure;
+    font-family: "Monaco", "Courier New", monospace;
+   
+}
+
 ul li{
     display: block;
     text-decoration: none;
     padding: 15px;
-    color: rgb(118, 61, 231);
+    color: rgba(43, 33, 33, 0.695);
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .tm{
@@ -56,6 +77,25 @@ ul li{
     margin-bottom: 50px;
 }
 
+.bk-f{
+    background-attachment: fixed
+}
+
+h1{
+    text-decoration: underline black;
+    letter-spacing: 3px
+
+}
+h2{
+    margin-top: 50px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(28, 27, 29);
+    text-decoration: underline;
+}
 /* Estilos da página contato.html */
 
 .mgl{
