@@ -1,4 +1,8 @@
 /* Estilos da página index.html */
+:root{
+    --light: #f5f5f5;
+    --dark: #212121;
+}
 
 body{
     background-color: rgba(255, 99, 71, 0.2);
@@ -93,6 +97,7 @@ h2{
 h3{
     margin-top: 20px;
     margin-left: 50px;
+    margin-right: 5px;
     color: rgb(28, 27, 29);
     text-decoration: underline;
 }
